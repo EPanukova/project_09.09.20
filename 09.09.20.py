@@ -1,4 +1,4 @@
-# 1 вариант
+"""Для функций, возвращающих любые значения, написать декоратор в json формате."""
 def decorate(func_to_decorate):
     """A function - decorator."""
     import json
