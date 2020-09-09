@@ -10,15 +10,3 @@ def decorate(func_to_decorate):
         result = func_to_decorate(*args, **kwargs)
         return json.dumps(result)
     return wrapped
-
-@decorate
-def fun(*args):
-    return args
-
-print(fun.__name__)
-
-
-
-
-
-
